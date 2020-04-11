@@ -1,6 +1,6 @@
 # asyncomple-active-buffer.vim
 
-This plugin provide two completor for [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim)
+This plugin provide two completors for [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim)
 
 ## Installation
 e.g. Plug
@@ -10,7 +10,7 @@ Plug 'ta-daiki/asyncomple-active-buffer.vim'
 ```
 
 ## Setting
-This plugin two completor
+This plugin two completors
 
 Completor | Source
 ------------ | -------------
@@ -32,9 +32,9 @@ au User asyncomplete_setup call asyncomplete#register_source(asyncomplete#source
 ```
 
 a option variable `asyncomplete_active_buffer_min_word_length` is provided  
-if this set as described below  
+if this is set as described below  
 ```
 let g:asyncomplete_active_buffer_min_word_length = 2
 ```
-No candidates having less than 2 charactors appear in a complete list
+No candidates having less than 2 characters appear in a complete list
 
